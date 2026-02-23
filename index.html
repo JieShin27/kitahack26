@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bank App</title>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld5_3QsAAAAAKrTW44GEYPZlBy6v5r_aNs_o5Xz"></script>
+</head>
+<body>
+    <h1>Welcome to the Bank</h1>
+    <p>Click below to transfer money.</p>
+
+    <button onclick="sendMoney(event)">Send Money</button>
+
+    <script>
+      function sendMoney(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          // Executing with your NEW Site Key
+          grecaptcha.execute('6Ld5_3QsAAAAAKrTW44GEYPZlBy6v5r_aNs_o5Xz', {action: 'submit'}).then(function(token) {
+              console.log("TOKEN:", token);
+              // This makes it easy for you to copy the result
+              prompt("Copy this token for your teammate:", token);
+          });
+        });
+      }
+    </script>
+</body>
+</html>
