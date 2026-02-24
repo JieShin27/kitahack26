@@ -19,6 +19,8 @@ By combining a real-time Chrome Extension (The Eyes) with a Google Cloud Backend
 -Financial Impact: Calculates "Money Saved" based on average loss metrics (RM5,000 per victim).
 -Technical Health: Monitors API latency and server uptime in real-time.
 
+i. Cloud Shell > Web Preview > Preview on port 8080 > https://8080-cs-45cd5f05-81e2-4d0e-94b5-dc121fa00c6e.cs-asia-southeast1-palm.cloudshell.dev/stats
+ii . after deploy 
 link: https://awas-api-636654356275.asia-southeast1.run.app 
 SCANNER SCAM DETECTER
 -detect scam if key in example link: https://scam.test.com 
