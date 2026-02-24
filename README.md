@@ -1,4 +1,62 @@
 # kitahack26
+🛡️ AwasBot: Sahabat Digital Ecosystem
+AwasBot is an end-to-end cybersecurity solution designed to protect vulnerable users—specifically the elderly and less tech-savvy individuals—from the rising tide of digital fraud in Malaysia.
+
+By combining a real-time Chrome Extension (The Eyes) with a Google Cloud Backend (The Brain), AwasBot intercepts threats before they can cause financial harm.
+
+🌟 Key Features
+1. Real-time Threat Scanner (Extension)
+-Active Monitoring: Automatically scans every URL a user visits.
+-Phishing Interception: Instantly blocks known scam keywords like secure-login, bank-update, and unverified-link.
+-Visual Safety Cues: Injects high-visibility alerts directly into the browser (Red for Scams, Yellow for Suspicious).
+
+2. Mock Bank Integration
+-Risk-Aware Transactions: A simulated banking interface that triggers warnings when high-risk transfers (e.g., >RM3,000) are attempted.
+-Social Verification: Encourages users to "Call your child" before proceeding with suspicious payments.
+
+3. Impact Dashboard (Cloud Analytics)
+-Live Metrics: Visualizes the total number of scams blocked across the network.
+-Financial Impact: Calculates "Money Saved" based on average loss metrics (RM5,000 per victim).
+-Technical Health: Monitors API latency and server uptime in real-time.
+
+link: https://awas-api-636654356275.asia-southeast1.run.app 
+SCANNER SCAM DETECTER
+-detect scam if key in example link: https://scam.test.com 
+-detected safe if example link: google.com
+MOCK BANK
+>3000 detected high risk
+<3000 safe transcation
+
+🛠️ Technical Stack
+-Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
+-Backend: Node.js + Express	API (Engine & Logic)
+-Styling: Tailwind CSS	(Dashboard & Alert UI)
+-Cloud: Google Cloud Run	(Serverless Hosting)
+-Networking: Axios / Fetch API	(Frontend-Backend Communication)
+
+🚀 Installation & Deployment
+Backend Setup (Google Cloud Shell)
+1. Clone the repository to your Cloud Shell.
+2. Install dependencies: npm install.
+3. Deploy to Cloud Run: gcloud run deploy awas-api --source . --region asia-southeast1 --allow-unauthenticated
+
+Extension Setup (Local)
+1. Download the extension folder.
+2. Go to chrome://extensions/ in your browser.
+3. Enable Developer Mode.
+4. Click Load unpacked and select the extension folder.
+5. Ensure the API_URL in background.js matches your Cloud Run endpoint.
+
+📈 Impact Logic
+-AwasBot doesn't just block links; it measures success.
+Impact Formula: Total Blocks × RM 5,000 = Total Community Wealth Protected
+-This tangible metric helps stakeholders understand the direct value of the intervention in the fight against cybercrime.
+
+👥 Contributors
+Later Eat What Team - Kitahack 2026 Submission 
+
+------------------------
+
 Bank-Security-Key
 ID:   6Ld5_3QsAAAAAKrTW44GEYPZlBy6v5r_aNs_o5Xz 
 
