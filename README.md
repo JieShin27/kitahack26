@@ -24,11 +24,11 @@ ACCESS TO IMPACT DASHBOARD:
 * after deploy 
 link: https://awas-api-636654356275.asia-southeast1.run.app 
 **SCANNER SCAM DETECTER**
-> * detect scam if key in example link: https://scam.test.com 
-> * detected safe if example link: google.com
+ * detect scam if key in example link: https://scam.test.com 
+ * detected safe if example link: google.com
 **MOCK BANK**
 > * more than RM3000 detected high risk
-* < RM3000 safe transcation
+> * < RM3000 safe transcation
 
 🛠️**Technical Stack**
 * Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
