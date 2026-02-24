@@ -26,7 +26,7 @@ SCANNER SCAM DETECTER
 -detect scam if key in example link: https://scam.test.com 
 -detected safe if example link: google.com
 MOCK BANK
->3000 detected high risk
+>>3000 detected high risk
 <3000 safe transcation
 
 🛠️ Technical Stack
