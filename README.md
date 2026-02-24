@@ -24,21 +24,21 @@ ACCESS TO IMPACT DASHBOARD:
 * after deploy 
 link: https://awas-api-636654356275.asia-southeast1.run.app 
 **SCANNER SCAM DETECTER**
-> *detect scam if key in example link: https://scam.test.com 
-> *detected safe if example link: google.com
+> * detect scam if key in example link: https://scam.test.com 
+> * detected safe if example link: google.com
 **MOCK BANK**
-> *more than RM3000 detected high risk
+> * more than RM3000 detected high risk
 * < RM3000 safe transcation
 
 🛠️**Technical Stack**
-*Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
-*Backend: Node.js + Express	API (Engine & Logic)
-*Styling: Tailwind CSS	(Dashboard & Alert UI)
-*Cloud: Google Cloud Run	(Serverless Hosting)
-*Networking: Axios / Fetch API	(Frontend-Backend Communication)
+* Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
+* Backend: Node.js + Express	API (Engine & Logic)
+* Styling: Tailwind CSS	(Dashboard & Alert UI)
+* Cloud: Google Cloud Run	(Serverless Hosting)
+* Networking: Axios / Fetch API	(Frontend-Backend Communication)
 
 🚀 **Installation & Deployment**
-Backend Setup (Google Cloud Shell)
+* Backend Setup (Google Cloud Shell)
 1. Clone the repository to your Cloud Shell.
 2. Install dependencies: npm install.
 3. Deploy to Cloud Run: gcloud run deploy awas-api --source . --region asia-southeast1 --allow-unauthenticated
@@ -51,17 +51,17 @@ Backend Setup (Google Cloud Shell)
 5. Ensure the API_URL in background.js matches your Cloud Run endpoint.
 
 📈**Impact Logic**
-*AwasBot doesn't just block links; it measures success.
->Impact Formula: Total Blocks × RM 5,000 = Total Community Wealth Protected
-*This tangible metric helps stakeholders understand the direct value of the intervention in the fight against cybercrime.
+* AwasBot doesn't just block links; it measures success.
+> Impact Formula: Total Blocks × RM 5,000 = Total Community Wealth Protected
+* This tangible metric helps stakeholders understand the direct value of the intervention in the fight against cybercrime.
 
 🚀 **Project Status & Technical Validation **
-*Backend & UI: Built a modern, responsive "FinTech" dashboard using Tailwind CSS and Express.js.✅ DONE
-*Extension Handshake: Implemented secure cross-origin communication (CORS) between Chrome Extension and Cloud API.✅ DONE
-*Google Cloud Run: Orchestrated Serverless infrastructure with automated builds via Google Artifact Registry.✅ DONE
-*Impact Dashboard: Engineered data-driven metrics to translate security events into Real-world Business Value (RM Saved).✅ DONE
-*Cloud Logging: Integrated native Google Cloud Logging for real-time security auditing and threat forensics.✅ DONE
-*Architecture Diagram: Documented the full-stack lifecycle through professional System Architecture mapping.✅ DONE
+* Backend & UI: Built a modern, responsive "FinTech" dashboard using Tailwind CSS and Express.js.✅ DONE
+* Extension Handshake: Implemented secure cross-origin communication (CORS) between Chrome Extension and Cloud API.✅ DONE
+* Google Cloud Run: Orchestrated Serverless infrastructure with automated builds via Google Artifact Registry.✅ DONE
+* Impact Dashboard: Engineered data-driven metrics to translate security events into Real-world Business Value (RM Saved).✅ DONE
+* Cloud Logging: Integrated native Google Cloud Logging for real-time security auditing and threat forensics.✅ DONE
+* Architecture Diagram: Documented the full-stack lifecycle through professional System Architecture mapping.✅ DONE
 
 👥**Contributors**:
 Later Eat What Team - Kitahack 2026 Submission 
