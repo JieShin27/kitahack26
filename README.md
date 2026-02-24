@@ -1,6 +1,6 @@
 # kitahack26
 🛡️ AwasBot: Sahabat Digital Ecosystem
-AwasBot is an end-to-end cybersecurity solution designed to protect vulnerable users—specifically the elderly and less tech-savvy individuals—from the rising tide of digital fraud in Malaysia.
+* AwasBot is an end-to-end cybersecurity solution designed to protect vulnerable users—specifically the elderly and less tech-savvy individuals—from the rising tide of digital fraud in Malaysia.
 
 By combining a real-time Chrome Extension (The Eyes) with a Google Cloud Backend (The Brain), AwasBot intercepts threats before they can cause financial harm.
 
@@ -24,10 +24,10 @@ ACCESS TO IMPACT DASHBOARD:
 2.  after deploy 
 link: https://awas-api-636654356275.asia-southeast1.run.app 
 * **SCANNER SCAM DETECTER**
-> detect scam if key in example link: https://scam.test.com 
-> detected safe if example link: google.com
+> detect scam if key in example link: https://scam.test.com,
+> detected safe if example link: https://google.com
 * **MOCK BANK**
-> more than RM3000 detected high risk
+> more than RM3000 detected high risk,
 > less than RM3000 safe transcation
 
 🛠️**Technical Stack**
