@@ -20,15 +20,15 @@ By combining a real-time Chrome Extension (The Eyes) with a Google Cloud Backend
 * Technical Health: Monitors API latency and server uptime in real-time.
 
 ACCESS TO IMPACT DASHBOARD: 
-* Cloud Shell > Web Preview > Preview on port 8080 > https://8080-cs-45cd5f05-81e2-4d0e-94b5-dc121fa00c6e.cs-asia-southeast1-palm.cloudshell.dev/stats
-* after deploy 
+1.  Cloud Shell > Web Preview > Preview on port 8080 > https://8080-cs-45cd5f05-81e2-4d0e-94b5-dc121fa00c6e.cs-asia-southeast1-palm.cloudshell.dev/stats
+2.  after deploy 
 link: https://awas-api-636654356275.asia-southeast1.run.app 
-**SCANNER SCAM DETECTER**
-   > detect scam if key in example link: https://scam.test.com 
-   > detected safe if example link: google.com
-**MOCK BANK**
->  more than RM3000 detected high risk
->  less than RM3000 safe transcation
+* **SCANNER SCAM DETECTER**
+> detect scam if key in example link: https://scam.test.com 
+> detected safe if example link: google.com
+* **MOCK BANK**
+> more than RM3000 detected high risk
+> less than RM3000 safe transcation
 
 🛠️**Technical Stack**
 * Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
