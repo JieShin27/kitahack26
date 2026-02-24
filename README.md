@@ -54,19 +54,13 @@ Extension Setup (Local)
 Impact Formula: Total Blocks × RM 5,000 = Total Community Wealth Protected
 -This tangible metric helps stakeholders understand the direct value of the intervention in the fight against cybercrime.
 
-🚀 Project Status & Technical Validation
+🚀 Project Status & Technical Validation ✅ DONE
 -Backend & UI: Built a modern, responsive "FinTech" dashboard using Tailwind CSS and Express.js.
-✅ DONE
 -Extension Handshake: Implemented secure cross-origin communication (CORS) between Chrome Extension and Cloud API.
-✅ DONE
 -Google Cloud Run: Orchestrated Serverless infrastructure with automated builds via Google Artifact Registry.
-✅ DONE
 -Impact Dashboard: Engineered data-driven metrics to translate security events into Real-world Business Value (RM Saved).
-✅ DONE
 -Cloud Logging: Integrated native Google Cloud Logging for real-time security auditing and threat forensics.
-✅ DONE
 -Architecture Diagram: Documented the full-stack lifecycle through professional System Architecture mapping.
-✅ DONE
 
 👥 Contributors
 Later Eat What Team - Kitahack 2026 Submission 
