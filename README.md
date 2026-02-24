@@ -6,13 +6,13 @@ By combining a real-time Chrome Extension (The Eyes) with a Google Cloud Backend
 
 🌟 Key Features
 1. Real-time Threat Scanner (Extension)
-A. Active Monitoring: Automatically scans every URL a user visits.
-B. Phishing Interception: Instantly blocks known scam keywords like secure-login, bank-update, and unverified-link.
--Visual Safety Cues: Injects high-visibility alerts directly into the browser (Red for Scams, Yellow for Suspicious).
+* Active Monitoring: Automatically scans every URL a user visits.
+* Phishing Interception: Instantly blocks known scam keywords like secure-login, bank-update, and unverified-link.
+* Visual Safety Cues: Injects high-visibility alerts directly into the browser (Red for Scams, Yellow for Suspicious).
 
 2. Mock Bank Integration
--Risk-Aware Transactions: A simulated banking interface that triggers warnings when high-risk transfers (e.g., >RM3,000) are attempted.
--Social Verification: Encourages users to "Call your child" before proceeding with suspicious payments.
+* Risk-Aware Transactions: A simulated banking interface that triggers warnings when high-risk transfers (e.g., >RM3,000) are attempted.
+* Social Verification: Encourages users to "Call your child" before proceeding with suspicious payments.
 
 3. Impact Dashboard (Cloud Analytics)
 -Live Metrics: Visualizes the total number of scams blocked across the network.
