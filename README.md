@@ -4,65 +4,66 @@ AwasBot is an end-to-end cybersecurity solution designed to protect vulnerable u
 
 By combining a real-time Chrome Extension (The Eyes) with a Google Cloud Backend (The Brain), AwasBot intercepts threats before they can cause financial harm.
 
-🌟 Key Features
-1. Real-time Threat Scanner (Extension)
+**🌟 Key Features**
+1. **Real-time Threat Scanner (Extension)**
 * Active Monitoring: Automatically scans every URL a user visits.
 * Phishing Interception: Instantly blocks known scam keywords like secure-login, bank-update, and unverified-link.
 * Visual Safety Cues: Injects high-visibility alerts directly into the browser (Red for Scams, Yellow for Suspicious).
 
-2. Mock Bank Integration
+2. **Mock Bank Integration**
 * Risk-Aware Transactions: A simulated banking interface that triggers warnings when high-risk transfers (e.g., >RM3,000) are attempted.
 * Social Verification: Encourages users to "Call your child" before proceeding with suspicious payments.
 
-3. Impact Dashboard (Cloud Analytics)
--Live Metrics: Visualizes the total number of scams blocked across the network.
--Financial Impact: Calculates "Money Saved" based on average loss metrics (RM5,000 per victim).
--Technical Health: Monitors API latency and server uptime in real-time.
+3. **Impact Dashboard (Cloud Analytics))**
+* Live Metrics: Visualizes the total number of scams blocked across the network.
+* Financial Impact: Calculates "Money Saved" based on average loss metrics (RM5,000 per victim).
+* Technical Health: Monitors API latency and server uptime in real-time.
 
-i. Cloud Shell > Web Preview > Preview on port 8080 > https://8080-cs-45cd5f05-81e2-4d0e-94b5-dc121fa00c6e.cs-asia-southeast1-palm.cloudshell.dev/stats
-ii . after deploy 
+ACCESS TO IMPACT DASHBOARD: 
+* Cloud Shell > Web Preview > Preview on port 8080 > https://8080-cs-45cd5f05-81e2-4d0e-94b5-dc121fa00c6e.cs-asia-southeast1-palm.cloudshell.dev/stats
+* after deploy 
 link: https://awas-api-636654356275.asia-southeast1.run.app 
-SCANNER SCAM DETECTER
--detect scam if key in example link: https://scam.test.com 
--detected safe if example link: google.com
-MOCK BANK
-> more than RM3000 detected high risk
-< RM3000 safe transcation
+**SCANNER SCAM DETECTER**
+> *detect scam if key in example link: https://scam.test.com 
+> *detected safe if example link: google.com
+**MOCK BANK**
+> *more than RM3000 detected high risk
+* < RM3000 safe transcation
 
-🛠️ Technical Stack
--Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
--Backend: Node.js + Express	API (Engine & Logic)
--Styling: Tailwind CSS	(Dashboard & Alert UI)
--Cloud: Google Cloud Run	(Serverless Hosting)
--Networking: Axios / Fetch API	(Frontend-Backend Communication)
+🛠️**Technical Stack**
+*Frontend: JavaScript (Manifest V3)	(Chrome Extension Logic)
+*Backend: Node.js + Express	API (Engine & Logic)
+*Styling: Tailwind CSS	(Dashboard & Alert UI)
+*Cloud: Google Cloud Run	(Serverless Hosting)
+*Networking: Axios / Fetch API	(Frontend-Backend Communication)
 
-🚀 Installation & Deployment
+🚀 **Installation & Deployment**
 Backend Setup (Google Cloud Shell)
 1. Clone the repository to your Cloud Shell.
 2. Install dependencies: npm install.
 3. Deploy to Cloud Run: gcloud run deploy awas-api --source . --region asia-southeast1 --allow-unauthenticated
 
-Extension Setup (Local)
+**Extension Setup (Local)**
 1. Download the extension folder.
 2. Go to chrome://extensions/ in your browser.
 3. Enable Developer Mode.
 4. Click Load unpacked and select the extension folder.
 5. Ensure the API_URL in background.js matches your Cloud Run endpoint.
 
-📈 Impact Logic
--AwasBot doesn't just block links; it measures success.
-Impact Formula: Total Blocks × RM 5,000 = Total Community Wealth Protected
--This tangible metric helps stakeholders understand the direct value of the intervention in the fight against cybercrime.
+📈**Impact Logic**
+*AwasBot doesn't just block links; it measures success.
+>Impact Formula: Total Blocks × RM 5,000 = Total Community Wealth Protected
+*This tangible metric helps stakeholders understand the direct value of the intervention in the fight against cybercrime.
 
-🚀 Project Status & Technical Validation ✅ DONE
--Backend & UI: Built a modern, responsive "FinTech" dashboard using Tailwind CSS and Express.js.
--Extension Handshake: Implemented secure cross-origin communication (CORS) between Chrome Extension and Cloud API.
--Google Cloud Run: Orchestrated Serverless infrastructure with automated builds via Google Artifact Registry.
--Impact Dashboard: Engineered data-driven metrics to translate security events into Real-world Business Value (RM Saved).
--Cloud Logging: Integrated native Google Cloud Logging for real-time security auditing and threat forensics.
--Architecture Diagram: Documented the full-stack lifecycle through professional System Architecture mapping.
+🚀 **Project Status & Technical Validation **
+*Backend & UI: Built a modern, responsive "FinTech" dashboard using Tailwind CSS and Express.js.✅ DONE
+*Extension Handshake: Implemented secure cross-origin communication (CORS) between Chrome Extension and Cloud API.✅ DONE
+*Google Cloud Run: Orchestrated Serverless infrastructure with automated builds via Google Artifact Registry.✅ DONE
+*Impact Dashboard: Engineered data-driven metrics to translate security events into Real-world Business Value (RM Saved).✅ DONE
+*Cloud Logging: Integrated native Google Cloud Logging for real-time security auditing and threat forensics.✅ DONE
+*Architecture Diagram: Documented the full-stack lifecycle through professional System Architecture mapping.✅ DONE
 
-👥 Contributors
+👥**Contributors**:
 Later Eat What Team - Kitahack 2026 Submission 
 
 ------------------------
