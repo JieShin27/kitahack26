@@ -8,6 +8,9 @@ A high-performance security extension that leverages **Google Cloud** to detect 
 * **Community Intelligence**: Real-time scam sync via **Firebase Firestore**.
 * **Zero-Trust UI**: Dynamic security banners (Red/Yellow/Green) injected into browser tabs.
 
+## 🏗️ System Architecture
+![System Architecture](.AwasBot.png)
+
 ## 🏗️ Technical Stack
 * **Frontend**: Chrome Extension API (Manifest v3).
 * **Backend**: Node.js 18 (Express) on **Cloud Run**.
