@@ -9,7 +9,7 @@ A high-performance security extension that leverages **Google Cloud** to detect 
 * **Zero-Trust UI**: Dynamic security banners (Red/Yellow/Green) injected into browser tabs.
 
 ## 🏗️ System Architecture
-![System Architecture](.AwasBot.png)
+(.AwasBot.png)
 
 ## 🏗️ Technical Stack
 * **Frontend**: Chrome Extension API (Manifest v3).
